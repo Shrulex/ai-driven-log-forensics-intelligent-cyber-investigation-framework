@@ -1,0 +1,19 @@
+timestamp,user,action,source_ip,status,login_hour,events_per_user,failed_logins,is_suspicious_action,ip_change,ml_contribution,temporal_contribution,mitre_multiplier,mitre_tag,final_risk_score,risk_level
+2026-01-01 10:00:00,user1,login,192.168.1.100,success,10,12,0,0,1,0.0,20.0,1.0,TA0001 - Initial Access,80.0,HIGH
+2026-01-01 10:00:00,user1,login,192.168.1.100,success,10,12,0,0,1,0.0,20.0,1.0,TA0001 - Initial Access,80.0,HIGH
+2026-01-01 10:00:00,user1,login,192.168.1.100,success,10,12,0,0,1,0.0,20.0,1.0,TA0001 - Initial Access,80.0,HIGH
+2026-01-01 10:05:00,user1,file_access,192.168.1.100,success,10,12,0,0,1,0.0,20.0,1.0,TA0002 - Execution,80.0,HIGH
+2026-01-01 10:05:00,user1,file_access,192.168.1.100,success,10,12,0,0,1,0.0,20.0,1.0,TA0002 - Execution,80.0,HIGH
+2026-01-01 10:05:00,user1,file_access,192.168.1.100,success,10,12,0,0,1,0.0,20.0,1.0,TA0002 - Execution,80.0,HIGH
+2026-01-01 10:10:00,user2,login,10.0.0.50,success,10,3,0,0,1,0.0,5.0,1.0,TA0001 - Initial Access,50.0,MEDIUM
+2026-01-01 10:10:00,user2,login,10.0.0.50,success,10,3,0,0,1,0.0,5.0,1.0,TA0001 - Initial Access,50.0,MEDIUM
+2026-01-01 10:10:00,user2,login,10.0.0.50,success,10,3,0,0,1,0.0,5.0,1.0,TA0001 - Initial Access,50.0,MEDIUM
+2026-01-01 14:00:00,user1,login,192.168.1.100,fail,14,12,1,0,1,0.0,20.0,1.0,TA0001 - Initial Access,80.0,HIGH
+2026-01-01 14:00:00,user1,login,192.168.1.100,fail,14,12,2,0,1,0.0,20.0,1.0,TA0001 - Initial Access,80.0,HIGH
+2026-01-01 14:00:00,user1,login,192.168.1.100,fail,14,12,3,0,1,0.0,20.0,1.0,TA0001 - Initial Access,80.0,HIGH
+2026-01-01 14:05:00,user1,usb_insert,192.168.1.100,success,14,12,3,1,1,0.0,20.0,1.5,T1201 - Exploitation for Client Execution,100.0,HIGH
+2026-01-01 14:05:00,user1,usb_insert,192.168.1.100,success,14,12,3,1,1,0.0,20.0,1.5,T1201 - Exploitation for Client Execution,100.0,HIGH
+2026-01-01 14:05:00,user1,usb_insert,192.168.1.100,success,14,12,3,1,1,0.0,20.0,1.5,T1201 - Exploitation for Client Execution,100.0,HIGH
+2026-01-01 22:00:00,user3,privilege_escalation,10.0.0.1,success,22,3,0,1,1,0.0,5.0,1.5,TA0004 - Privilege Escalation,70.0,MEDIUM
+2026-01-01 22:00:00,user3,privilege_escalation,10.0.0.1,success,22,3,0,1,1,0.0,5.0,1.5,TA0004 - Privilege Escalation,70.0,MEDIUM
+2026-01-01 22:00:00,user3,privilege_escalation,10.0.0.1,success,22,3,0,1,1,0.0,5.0,1.5,TA0004 - Privilege Escalation,70.0,MEDIUM
