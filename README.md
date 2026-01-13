@@ -1,11 +1,8 @@
-# AI-Driven Log Forensics & Intelligent Cyber Investigation Framework
-
-## Quick Start
-1. `git clone <url>`
-2. `python -m venv venv`
-3. `venv\Scripts\activate` (Windows) or `source venv/bin/activate`
-4. `pip install -r requirements.txt`
-5. `python backend/ingestion.py`
-
-## Pipeline
-Raw Logs → AI Features → Baseline Learning → ...
+(venv) PS C:\Users\ksh\Downloads\AI-Driven Log Forensics\ai-driven-log-forensics-intelligent-cyber-investigation-framework> python backend/evaluate.py
+=== EVALUATION METRICS ===
+HIGH-risk detections: 9
+False positive rate: 66.7%
+Investigation speedup: 6x
+MITRE coverage: 4 techniques
+100% Objectives met ✅
+(venv) PS C:\Users\ksh\Downloads\AI-Driven Log Forensics\ai-driven-log-forensics-intelligent-cyber-investigation-framework> 
