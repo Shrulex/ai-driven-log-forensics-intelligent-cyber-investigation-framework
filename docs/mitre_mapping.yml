@@ -1,0 +1,5 @@
+# M10 MITRE ATT&CK Mapping
+login: TA0001 - Initial Access
+file_access: TA0002 - Execution
+usb_insert: T1201 - Exploitation for Client Execution
+privilege_escalation: TA0004 - Privilege Escalation
