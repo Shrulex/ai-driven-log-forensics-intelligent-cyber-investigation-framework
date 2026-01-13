@@ -1,0 +1,19 @@
+timestamp,user,action,source_ip,status,login_hour,events_per_user,failed_logins,is_suspicious_action,ip_change
+2026-01-01 10:00:00,user1,login,192.168.1.100,success,10,12,0,0,1
+2026-01-01 10:00:00,user1,login,192.168.1.100,success,10,12,0,0,1
+2026-01-01 10:00:00,user1,login,192.168.1.100,success,10,12,0,0,1
+2026-01-01 10:05:00,user1,file_access,192.168.1.100,success,10,12,0,0,1
+2026-01-01 10:05:00,user1,file_access,192.168.1.100,success,10,12,0,0,1
+2026-01-01 10:05:00,user1,file_access,192.168.1.100,success,10,12,0,0,1
+2026-01-01 10:10:00,user2,login,10.0.0.50,success,10,3,0,0,1
+2026-01-01 10:10:00,user2,login,10.0.0.50,success,10,3,0,0,1
+2026-01-01 10:10:00,user2,login,10.0.0.50,success,10,3,0,0,1
+2026-01-01 14:00:00,user1,login,192.168.1.100,fail,14,12,1,0,1
+2026-01-01 14:00:00,user1,login,192.168.1.100,fail,14,12,2,0,1
+2026-01-01 14:00:00,user1,login,192.168.1.100,fail,14,12,3,0,1
+2026-01-01 14:05:00,user1,usb_insert,192.168.1.100,success,14,12,3,1,1
+2026-01-01 14:05:00,user1,usb_insert,192.168.1.100,success,14,12,3,1,1
+2026-01-01 14:05:00,user1,usb_insert,192.168.1.100,success,14,12,3,1,1
+2026-01-01 22:00:00,user3,privilege_escalation,10.0.0.1,success,22,3,0,1,1
+2026-01-01 22:00:00,user3,privilege_escalation,10.0.0.1,success,22,3,0,1,1
+2026-01-01 22:00:00,user3,privilege_escalation,10.0.0.1,success,22,3,0,1,1
