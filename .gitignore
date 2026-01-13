@@ -1,14 +1,17 @@
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+# venv
+venv/
+env/
+.venv/
+
+# data
 data/*.log
 data/*.csv
 data/*.json
 *.sqlite
 *.db
+
+# models
 models/*.pkl
 features/*.parquet
-notebooks/*.ipynb_checkpoints/
-.env
+__pycache__/
+*.pyc
