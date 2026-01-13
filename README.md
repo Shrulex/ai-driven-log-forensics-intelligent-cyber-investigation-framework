@@ -1,10 +1,11 @@
 # AI-Driven Log Forensics & Intelligent Cyber Investigation Framework
 
-AI system that learns behavioral baselines, detects anomalies with ensemble ML, correlates events temporally and via graphs, scores risks, and provides explainable insights for cyber investigators. No hardware, free tools only.
+## Quick Start
+1. `git clone <url>`
+2. `python -m venv venv`
+3. `venv\Scripts\activate` (Windows) or `source venv/bin/activate`
+4. `pip install -r requirements.txt`
+5. `python backend/ingestion.py`
 
 ## Pipeline
-Raw Logs → AI Features → Baseline Learning → Ensemble Anomaly → Temporal/Graph Correlation → Risk Scoring → Explainable AI → NL Interface → Reports
-
-## Milestones
-- M0: Repo setup ✅
-- M1: Log ingestion...
+Raw Logs → AI Features → Baseline Learning → ...
