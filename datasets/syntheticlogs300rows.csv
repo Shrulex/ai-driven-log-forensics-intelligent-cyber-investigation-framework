@@ -1,0 +1,301 @@
+timestamp,user,action,finalriskscore,mitretag
+2026-01-13 07:40,guest,dataexfil,56.8,TA0002 - Execution
+2026-01-13 15:34,user2,dataexfil,60.8,TA0002 - Execution
+2026-01-13 06:41,guest,login,37.9,T1201 - Exploitation
+2026-01-13 07:47,admin,privilegeescalation,101.0,TA0002 - Execution
+2026-01-13 09:01,admin,privilegeescalation,98.7,TA0004 - Privilege Escalation
+2026-01-13 23:00,guest,login,65.0,T1078 - Valid Accounts
+2026-01-13 11:16,user1,usbinsert,122.5,T1059 - Command Interpreter
+2026-01-13 01:59,user2,privilegeescalation,111.2,T1201 - Exploitation
+2026-01-13 12:48,user2,login,37.8,TA0008 - Lateral Movement
+2026-01-13 12:53,guest,login,52.7,T1078 - Valid Accounts
+2026-01-13 04:57,user2,usbinsert,111.9,TA0001 - Initial Access
+2026-01-13 04:57,user1,login,45.2,TA0004 - Privilege Escalation
+2026-01-13 02:25,admin,dataexfil,38.6,T1201 - Exploitation
+2026-01-13 06:38,user1,dataexfil,22.1,TA0002 - Execution
+2026-01-13 06:21,user2,dataexfil,44.5,TA0002 - Execution
+2026-01-13 09:47,admin,usbinsert,99.5,TA0001 - Initial Access
+2026-01-13 02:17,user1,usbinsert,83.4,TA0008 - Lateral Movement
+2026-01-13 04:46,user2,login,88.7,TA0004 - Privilege Escalation
+2026-01-13 12:51,user2,fileaccess,34.9,T1078 - Valid Accounts
+2026-01-13 23:18,user2,login,77.8,T1059 - Command Interpreter
+2026-01-13 04:20,guest,fileaccess,62.7,TA0002 - Execution
+2026-01-13 13:15,user2,fileaccess,60.8,TA0010 - Exfiltration
+2026-01-13 02:08,user2,dataexfil,34.8,T1078 - Valid Accounts
+2026-01-13 13:38,admin,privilegeescalation,125.0,TA0008 - Lateral Movement
+2026-01-13 23:31,user2,fileaccess,57.9,T1078 - Valid Accounts
+2026-01-13 09:08,guest,usbinsert,80.7,TA0008 - Lateral Movement
+2026-01-13 14:27,guest,fileaccess,28.5,TA0002 - Execution
+2026-01-13 04:46,user2,dataexfil,79.1,TA0010 - Exfiltration
+2026-01-13 15:36,user1,dataexfil,80.4,TA0004 - Privilege Escalation
+2026-01-13 05:16,user2,dataexfil,43.4,T1059 - Command Interpreter
+2026-01-13 22:06,user2,login,46.3,T1078 - Valid Accounts
+2026-01-13 13:43,user1,privilegeescalation,105.5,TA0010 - Exfiltration
+2026-01-13 22:35,user2,fileaccess,41.9,TA0008 - Lateral Movement
+2026-01-13 23:10,admin,login,38.1,T1059 - Command Interpreter
+2026-01-13 08:39,user2,fileaccess,52.3,TA0001 - Initial Access
+2026-01-13 13:32,admin,dataexfil,76.4,TA0004 - Privilege Escalation
+2026-01-13 13:18,user2,fileaccess,41.1,TA0001 - Initial Access
+2026-01-13 18:34,user2,login,78.8,TA0008 - Lateral Movement
+2026-01-13 13:22,user1,dataexfil,32.7,TA0008 - Lateral Movement
+2026-01-13 06:08,user1,dataexfil,52.4,TA0010 - Exfiltration
+2026-01-13 02:52,guest,fileaccess,30.7,TA0002 - Execution
+2026-01-13 21:47,guest,login,45.4,TA0002 - Execution
+2026-01-13 17:40,admin,privilegeescalation,127.1,TA0004 - Privilege Escalation
+2026-01-13 04:04,admin,login,67.3,T1078 - Valid Accounts
+2026-01-13 11:43,guest,fileaccess,54.8,TA0008 - Lateral Movement
+2026-01-13 17:49,user1,login,57.4,T1059 - Command Interpreter
+2026-01-13 04:27,user1,usbinsert,63.7,TA0008 - Lateral Movement
+2026-01-13 22:11,guest,privilegeescalation,79.7,TA0001 - Initial Access
+2026-01-13 10:20,user2,usbinsert,105.2,T1059 - Command Interpreter
+2026-01-13 18:14,user1,privilegeescalation,116.4,TA0002 - Execution
+2026-01-13 02:42,guest,privilegeescalation,107.1,TA0004 - Privilege Escalation
+2026-01-13 22:41,guest,login,32.4,TA0008 - Lateral Movement
+2026-01-13 09:36,admin,login,58.0,TA0001 - Initial Access
+2026-01-13 18:12,user2,login,32.0,TA0010 - Exfiltration
+2026-01-13 02:04,user1,dataexfil,57.6,TA0008 - Lateral Movement
+2026-01-13 14:25,user1,fileaccess,83.3,TA0008 - Lateral Movement
+2026-01-13 00:21,user1,fileaccess,16.5,T1059 - Command Interpreter
+2026-01-13 21:49,user2,fileaccess,31.7,TA0004 - Privilege Escalation
+2026-01-13 01:32,user1,dataexfil,61.0,T1201 - Exploitation
+2026-01-13 20:20,user1,privilegeescalation,80.6,TA0002 - Execution
+2026-01-13 12:28,user2,login,38.1,TA0010 - Exfiltration
+2026-01-13 20:13,guest,dataexfil,51.5,T1078 - Valid Accounts
+2026-01-13 14:05,user2,usbinsert,118.3,T1078 - Valid Accounts
+2026-01-13 22:01,admin,login,56.0,T1059 - Command Interpreter
+2026-01-13 23:45,guest,usbinsert,87.7,TA0008 - Lateral Movement
+2026-01-13 14:40,user1,fileaccess,57.6,TA0002 - Execution
+2026-01-13 21:02,user1,usbinsert,99.7,TA0010 - Exfiltration
+2026-01-13 13:16,admin,dataexfil,66.7,TA0002 - Execution
+2026-01-13 07:25,user1,login,75.0,T1078 - Valid Accounts
+2026-01-13 11:00,user2,usbinsert,116.5,TA0001 - Initial Access
+2026-01-13 12:49,user2,usbinsert,110.9,TA0004 - Privilege Escalation
+2026-01-13 00:08,guest,fileaccess,63.0,T1059 - Command Interpreter
+2026-01-13 07:15,user2,fileaccess,76.6,TA0002 - Execution
+2026-01-13 19:33,guest,usbinsert,104.3,T1078 - Valid Accounts
+2026-01-13 08:59,user1,usbinsert,86.2,T1201 - Exploitation
+2026-01-13 06:47,user1,dataexfil,43.3,T1059 - Command Interpreter
+2026-01-13 09:25,admin,dataexfil,52.9,TA0004 - Privilege Escalation
+2026-01-13 05:52,guest,dataexfil,26.5,T1059 - Command Interpreter
+2026-01-13 16:11,user2,login,43.7,TA0001 - Initial Access
+2026-01-13 03:12,user2,fileaccess,49.6,T1201 - Exploitation
+2026-01-13 01:10,user1,fileaccess,51.2,TA0010 - Exfiltration
+2026-01-13 09:13,user2,privilegeescalation,69.4,TA0008 - Lateral Movement
+2026-01-13 12:26,user2,login,33.4,T1201 - Exploitation
+2026-01-13 07:22,user1,login,36.2,T1201 - Exploitation
+2026-01-13 05:10,admin,usbinsert,113.9,TA0010 - Exfiltration
+2026-01-13 10:45,user1,login,69.6,TA0001 - Initial Access
+2026-01-13 14:22,user2,usbinsert,96.7,TA0004 - Privilege Escalation
+2026-01-13 20:17,user1,dataexfil,53.0,T1078 - Valid Accounts
+2026-01-13 20:59,user1,privilegeescalation,70.0,T1059 - Command Interpreter
+2026-01-13 14:56,user2,fileaccess,35.5,TA0002 - Execution
+2026-01-13 19:36,user2,dataexfil,61.4,TA0004 - Privilege Escalation
+2026-01-13 04:40,admin,privilegeescalation,80.3,TA0008 - Lateral Movement
+2026-01-13 20:53,guest,usbinsert,80.0,TA0010 - Exfiltration
+2026-01-13 10:28,admin,fileaccess,33.4,T1201 - Exploitation
+2026-01-13 22:43,guest,dataexfil,26.0,TA0008 - Lateral Movement
+2026-01-13 11:24,user2,usbinsert,104.9,T1201 - Exploitation
+2026-01-13 18:00,admin,dataexfil,28.9,TA0008 - Lateral Movement
+2026-01-13 09:30,guest,login,52.4,T1078 - Valid Accounts
+2026-01-13 23:18,admin,privilegeescalation,71.2,TA0008 - Lateral Movement
+2026-01-13 07:52,guest,usbinsert,131.4,T1078 - Valid Accounts
+2026-01-13 21:22,admin,dataexfil,47.9,TA0008 - Lateral Movement
+2026-01-13 04:56,user2,privilegeescalation,108.6,TA0004 - Privilege Escalation
+2026-01-13 18:13,guest,dataexfil,39.2,T1201 - Exploitation
+2026-01-13 12:22,guest,usbinsert,70.6,T1201 - Exploitation
+2026-01-13 17:26,user2,usbinsert,83.1,TA0001 - Initial Access
+2026-01-13 21:28,admin,dataexfil,59.1,TA0010 - Exfiltration
+2026-01-13 17:33,user1,usbinsert,87.0,T1059 - Command Interpreter
+2026-01-13 23:26,admin,usbinsert,76.8,TA0004 - Privilege Escalation
+2026-01-13 22:19,guest,login,87.7,TA0010 - Exfiltration
+2026-01-13 17:58,guest,login,58.8,TA0002 - Execution
+2026-01-13 05:39,admin,dataexfil,59.6,TA0008 - Lateral Movement
+2026-01-13 08:24,user2,login,36.2,T1201 - Exploitation
+2026-01-13 08:31,guest,login,56.7,TA0010 - Exfiltration
+2026-01-13 14:07,admin,privilegeescalation,104.4,TA0004 - Privilege Escalation
+2026-01-13 20:13,guest,usbinsert,81.7,TA0002 - Execution
+2026-01-13 00:39,guest,fileaccess,37.7,TA0010 - Exfiltration
+2026-01-13 21:03,guest,dataexfil,59.8,TA0001 - Initial Access
+2026-01-13 17:08,admin,login,51.5,TA0004 - Privilege Escalation
+2026-01-13 20:24,guest,privilegeescalation,81.6,T1078 - Valid Accounts
+2026-01-13 21:10,admin,usbinsert,106.1,TA0004 - Privilege Escalation
+2026-01-13 09:56,user1,dataexfil,45.3,T1078 - Valid Accounts
+2026-01-13 04:57,guest,usbinsert,82.0,TA0004 - Privilege Escalation
+2026-01-13 18:16,user1,fileaccess,17.3,TA0010 - Exfiltration
+2026-01-13 19:10,user1,fileaccess,69.0,T1201 - Exploitation
+2026-01-13 07:54,guest,privilegeescalation,96.9,T1059 - Command Interpreter
+2026-01-13 16:08,guest,privilegeescalation,79.6,TA0004 - Privilege Escalation
+2026-01-13 00:50,user1,fileaccess,47.6,TA0008 - Lateral Movement
+2026-01-13 03:10,admin,login,28.1,T1059 - Command Interpreter
+2026-01-13 23:40,user2,privilegeescalation,107.3,T1059 - Command Interpreter
+2026-01-13 18:51,guest,login,59.8,T1059 - Command Interpreter
+2026-01-13 14:37,user1,dataexfil,61.7,T1201 - Exploitation
+2026-01-13 09:10,admin,usbinsert,110.0,T1078 - Valid Accounts
+2026-01-13 00:48,user1,privilegeescalation,89.8,TA0001 - Initial Access
+2026-01-13 11:32,user1,privilegeescalation,87.3,TA0001 - Initial Access
+2026-01-13 04:50,user1,dataexfil,52.5,TA0008 - Lateral Movement
+2026-01-13 20:01,guest,usbinsert,122.3,TA0004 - Privilege Escalation
+2026-01-13 13:41,user2,fileaccess,45.0,TA0002 - Execution
+2026-01-13 12:50,user1,login,25.8,T1059 - Command Interpreter
+2026-01-13 03:08,admin,login,71.9,T1201 - Exploitation
+2026-01-13 19:16,guest,usbinsert,123.3,T1059 - Command Interpreter
+2026-01-13 17:29,user1,privilegeescalation,101.3,TA0004 - Privilege Escalation
+2026-01-13 06:15,admin,fileaccess,32.0,TA0010 - Exfiltration
+2026-01-13 22:20,guest,privilegeescalation,112.1,TA0010 - Exfiltration
+2026-01-13 18:51,admin,login,70.0,T1059 - Command Interpreter
+2026-01-13 03:57,admin,fileaccess,30.9,T1201 - Exploitation
+2026-01-13 19:47,admin,dataexfil,57.7,TA0010 - Exfiltration
+2026-01-13 21:20,admin,privilegeescalation,114.1,T1059 - Command Interpreter
+2026-01-13 03:12,user2,dataexfil,76.3,TA0001 - Initial Access
+2026-01-13 16:09,guest,dataexfil,54.4,TA0010 - Exfiltration
+2026-01-14 00:07,user1,dataexfil,76.9,TA0008 - Lateral Movement
+2026-01-13 00:56,guest,dataexfil,60.3,TA0002 - Execution
+2026-01-13 14:20,admin,privilegeescalation,97.6,T1059 - Command Interpreter
+2026-01-13 16:10,guest,dataexfil,37.9,T1078 - Valid Accounts
+2026-01-13 19:27,guest,privilegeescalation,112.8,TA0008 - Lateral Movement
+2026-01-13 09:34,user2,fileaccess,67.9,TA0002 - Execution
+2026-01-13 12:41,user2,privilegeescalation,105.0,TA0010 - Exfiltration
+2026-01-13 10:11,guest,privilegeescalation,111.4,T1078 - Valid Accounts
+2026-01-13 02:46,admin,usbinsert,113.2,TA0010 - Exfiltration
+2026-01-13 12:10,user2,privilegeescalation,100.7,T1201 - Exploitation
+2026-01-13 08:36,admin,login,24.3,TA0004 - Privilege Escalation
+2026-01-13 08:26,user1,privilegeescalation,82.5,TA0010 - Exfiltration
+2026-01-13 10:04,admin,privilegeescalation,90.9,TA0002 - Execution
+2026-01-13 11:35,user2,privilegeescalation,106.1,TA0008 - Lateral Movement
+2026-01-13 04:30,user1,login,37.8,T1078 - Valid Accounts
+2026-01-13 10:48,user2,dataexfil,16.5,T1201 - Exploitation
+2026-01-13 09:31,guest,usbinsert,104.7,TA0008 - Lateral Movement
+2026-01-13 00:31,guest,fileaccess,54.2,TA0010 - Exfiltration
+2026-01-13 11:32,user1,dataexfil,63.6,TA0002 - Execution
+2026-01-13 13:32,user1,usbinsert,93.2,T1201 - Exploitation
+2026-01-13 03:27,user1,fileaccess,50.5,TA0002 - Execution
+2026-01-13 18:02,user2,privilegeescalation,93.0,TA0010 - Exfiltration
+2026-01-13 12:25,guest,usbinsert,104.0,T1059 - Command Interpreter
+2026-01-13 20:52,guest,dataexfil,73.1,TA0008 - Lateral Movement
+2026-01-13 20:50,user1,usbinsert,68.6,TA0001 - Initial Access
+2026-01-13 12:37,admin,login,58.9,TA0008 - Lateral Movement
+2026-01-13 05:28,guest,fileaccess,63.1,T1078 - Valid Accounts
+2026-01-13 13:45,admin,dataexfil,77.2,TA0004 - Privilege Escalation
+2026-01-13 03:36,admin,privilegeescalation,65.9,TA0004 - Privilege Escalation
+2026-01-13 12:20,guest,fileaccess,65.3,TA0002 - Execution
+2026-01-13 01:30,guest,privilegeescalation,76.2,TA0002 - Execution
+2026-01-13 04:49,user1,dataexfil,51.6,TA0004 - Privilege Escalation
+2026-01-13 22:30,guest,login,45.4,TA0004 - Privilege Escalation
+2026-01-13 10:29,admin,fileaccess,62.8,TA0002 - Execution
+2026-01-13 09:13,admin,login,47.4,TA0008 - Lateral Movement
+2026-01-13 22:35,admin,fileaccess,64.1,TA0001 - Initial Access
+2026-01-13 11:24,user2,login,42.6,TA0010 - Exfiltration
+2026-01-13 01:11,user2,login,39.4,TA0004 - Privilege Escalation
+2026-01-13 04:45,user1,usbinsert,134.4,TA0001 - Initial Access
+2026-01-13 09:44,guest,dataexfil,67.4,TA0002 - Execution
+2026-01-13 15:07,admin,privilegeescalation,91.3,TA0008 - Lateral Movement
+2026-01-13 01:59,admin,login,45.1,T1201 - Exploitation
+2026-01-13 12:53,user1,usbinsert,93.0,TA0004 - Privilege Escalation
+2026-01-13 08:47,guest,login,64.2,TA0004 - Privilege Escalation
+2026-01-13 12:52,admin,dataexfil,62.8,TA0010 - Exfiltration
+2026-01-13 16:17,guest,privilegeescalation,119.9,TA0010 - Exfiltration
+2026-01-13 11:36,user1,privilegeescalation,112.9,TA0004 - Privilege Escalation
+2026-01-13 12:46,user2,login,52.3,TA0008 - Lateral Movement
+2026-01-13 01:19,user1,dataexfil,38.8,T1201 - Exploitation
+2026-01-13 20:06,guest,usbinsert,97.5,T1201 - Exploitation
+2026-01-13 03:08,admin,privilegeescalation,123.3,TA0002 - Execution
+2026-01-13 04:03,guest,privilegeescalation,131.5,TA0001 - Initial Access
+2026-01-13 23:16,guest,login,55.7,T1201 - Exploitation
+2026-01-13 14:49,user2,login,24.8,TA0001 - Initial Access
+2026-01-13 05:05,admin,fileaccess,55.9,T1078 - Valid Accounts
+2026-01-13 22:11,admin,privilegeescalation,96.7,T1059 - Command Interpreter
+2026-01-13 09:25,guest,usbinsert,109.7,TA0002 - Execution
+2026-01-13 01:55,user2,usbinsert,89.1,TA0001 - Initial Access
+2026-01-13 16:48,admin,usbinsert,80.7,TA0001 - Initial Access
+2026-01-13 11:39,admin,usbinsert,105.3,TA0008 - Lateral Movement
+2026-01-13 03:30,user2,privilegeescalation,79.3,TA0008 - Lateral Movement
+2026-01-13 19:48,user2,dataexfil,47.2,TA0008 - Lateral Movement
+2026-01-13 09:47,user1,privilegeescalation,122.8,TA0008 - Lateral Movement
+2026-01-13 18:58,guest,dataexfil,73.7,T1059 - Command Interpreter
+2026-01-13 09:57,user2,fileaccess,65.8,T1201 - Exploitation
+2026-01-13 23:58,user2,privilegeescalation,96.4,TA0010 - Exfiltration
+2026-01-13 05:59,user2,login,66.9,TA0004 - Privilege Escalation
+2026-01-13 07:12,admin,dataexfil,41.7,TA0001 - Initial Access
+2026-01-13 00:09,admin,privilegeescalation,86.8,T1201 - Exploitation
+2026-01-13 07:18,user1,dataexfil,52.1,T1059 - Command Interpreter
+2026-01-13 15:40,user2,dataexfil,44.6,TA0002 - Execution
+2026-01-13 07:14,user1,usbinsert,90.3,TA0010 - Exfiltration
+2026-01-13 01:01,guest,fileaccess,44.9,TA0001 - Initial Access
+2026-01-13 09:23,guest,usbinsert,93.0,TA0002 - Execution
+2026-01-13 15:57,user1,login,56.7,T1078 - Valid Accounts
+2026-01-13 19:59,guest,login,37.7,TA0008 - Lateral Movement
+2026-01-13 07:30,admin,privilegeescalation,123.8,TA0002 - Execution
+2026-01-13 22:28,admin,privilegeescalation,85.9,TA0010 - Exfiltration
+2026-01-13 17:24,admin,dataexfil,23.3,T1059 - Command Interpreter
+2026-01-13 12:58,user1,privilegeescalation,99.8,T1078 - Valid Accounts
+2026-01-13 12:26,user1,privilegeescalation,77.3,TA0002 - Execution
+2026-01-13 00:15,user2,usbinsert,76.2,T1201 - Exploitation
+2026-01-13 11:44,user2,login,60.1,TA0010 - Exfiltration
+2026-01-13 04:14,guest,privilegeescalation,111.9,TA0004 - Privilege Escalation
+2026-01-13 20:53,admin,login,87.0,T1201 - Exploitation
+2026-01-13 12:04,user2,login,38.3,TA0008 - Lateral Movement
+2026-01-13 06:36,admin,privilegeescalation,83.8,T1078 - Valid Accounts
+2026-01-13 01:37,admin,dataexfil,31.3,T1059 - Command Interpreter
+2026-01-13 01:31,user2,usbinsert,97.3,TA0010 - Exfiltration
+2026-01-13 03:07,guest,login,62.2,TA0008 - Lateral Movement
+2026-01-13 19:34,user1,privilegeescalation,93.2,TA0008 - Lateral Movement
+2026-01-13 10:19,admin,dataexfil,55.2,TA0010 - Exfiltration
+2026-01-13 13:04,admin,login,58.0,TA0010 - Exfiltration
+2026-01-13 00:16,user1,privilegeescalation,121.6,TA0004 - Privilege Escalation
+2026-01-13 08:13,admin,fileaccess,47.3,TA0001 - Initial Access
+2026-01-13 23:22,user1,login,30.2,TA0010 - Exfiltration
+2026-01-13 00:36,admin,privilegeescalation,101.8,T1078 - Valid Accounts
+2026-01-13 23:48,guest,privilegeescalation,75.7,TA0001 - Initial Access
+2026-01-13 02:32,guest,dataexfil,82.2,T1201 - Exploitation
+2026-01-13 17:24,user2,login,34.5,T1059 - Command Interpreter
+2026-01-13 09:22,user2,privilegeescalation,104.8,T1059 - Command Interpreter
+2026-01-13 13:52,guest,fileaccess,54.2,TA0008 - Lateral Movement
+2026-01-13 13:37,guest,login,72.3,TA0001 - Initial Access
+2026-01-13 12:08,user1,fileaccess,72.7,TA0001 - Initial Access
+2026-01-13 01:35,user1,usbinsert,111.2,TA0001 - Initial Access
+2026-01-13 05:13,user2,login,48.0,TA0002 - Execution
+2026-01-13 14:28,admin,login,30.1,T1201 - Exploitation
+2026-01-13 14:45,guest,usbinsert,74.9,TA0010 - Exfiltration
+2026-01-13 02:58,user2,fileaccess,64.2,T1078 - Valid Accounts
+2026-01-13 03:54,user1,dataexfil,46.0,T1059 - Command Interpreter
+2026-01-13 06:31,admin,login,23.9,TA0001 - Initial Access
+2026-01-13 16:53,guest,dataexfil,68.4,TA0001 - Initial Access
+2026-01-13 03:44,user2,fileaccess,47.0,TA0004 - Privilege Escalation
+2026-01-13 07:42,user2,privilegeescalation,82.1,TA0004 - Privilege Escalation
+2026-01-13 02:01,guest,login,58.7,TA0001 - Initial Access
+2026-01-13 01:02,guest,fileaccess,79.6,TA0004 - Privilege Escalation
+2026-01-13 06:40,guest,usbinsert,123.8,T1059 - Command Interpreter
+2026-01-13 22:34,user1,fileaccess,69.8,TA0002 - Execution
+2026-01-13 15:53,user2,privilegeescalation,104.0,T1059 - Command Interpreter
+2026-01-13 18:30,guest,login,60.4,T1201 - Exploitation
+2026-01-13 08:52,user2,fileaccess,36.7,T1201 - Exploitation
+2026-01-13 13:41,user2,fileaccess,61.1,TA0008 - Lateral Movement
+2026-01-13 08:35,admin,fileaccess,38.6,TA0002 - Execution
+2026-01-13 20:48,admin,dataexfil,40.2,T1059 - Command Interpreter
+2026-01-13 01:00,guest,dataexfil,25.3,T1059 - Command Interpreter
+2026-01-13 19:30,user2,usbinsert,114.3,T1201 - Exploitation
+2026-01-13 09:45,user1,fileaccess,76.7,TA0002 - Execution
+2026-01-13 01:48,admin,login,68.6,T1201 - Exploitation
+2026-01-13 08:17,user2,dataexfil,76.4,T1059 - Command Interpreter
+2026-01-13 09:03,guest,login,64.6,TA0008 - Lateral Movement
+2026-01-13 20:03,user2,privilegeescalation,112.8,T1078 - Valid Accounts
+2026-01-13 07:17,admin,fileaccess,64.4,TA0002 - Execution
+2026-01-13 04:24,admin,usbinsert,111.6,T1059 - Command Interpreter
+2026-01-13 19:46,guest,usbinsert,118.7,T1078 - Valid Accounts
+2026-01-13 09:12,admin,dataexfil,59.6,TA0002 - Execution
+2026-01-13 19:45,user2,fileaccess,20.1,T1059 - Command Interpreter
+2026-01-13 18:16,user2,fileaccess,56.4,TA0008 - Lateral Movement
+2026-01-13 05:13,admin,usbinsert,93.3,TA0004 - Privilege Escalation
+2026-01-13 22:33,user1,fileaccess,54.6,TA0001 - Initial Access
+2026-01-13 19:43,guest,fileaccess,75.9,TA0004 - Privilege Escalation
+2026-01-13 09:32,user1,fileaccess,38.4,TA0010 - Exfiltration
+2026-01-13 18:56,admin,usbinsert,86.2,TA0004 - Privilege Escalation
+2026-01-13 01:28,guest,usbinsert,102.8,T1059 - Command Interpreter
+2026-01-13 14:39,admin,login,43.5,T1059 - Command Interpreter
+2026-01-13 19:53,admin,privilegeescalation,90.3,TA0004 - Privilege Escalation
+2026-01-13 01:05,user2,login,26.6,T1201 - Exploitation
+2026-01-13 01:46,user1,dataexfil,60.3,TA0004 - Privilege Escalation
+2026-01-13 15:40,guest,privilegeescalation,111.0,T1078 - Valid Accounts
+2026-01-13 12:48,user1,usbinsert,64.0,TA0002 - Execution
+2026-01-13 14:39,admin,usbinsert,108.2,TA0002 - Execution
+2026-01-13 01:30,user1,fileaccess,78.9,TA0002 - Execution
