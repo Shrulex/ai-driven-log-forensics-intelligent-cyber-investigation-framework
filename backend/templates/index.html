@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Log Forensics</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #0a192f, #1a1a2e); color: #fff; min-height: 100vh; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 60px 20px; text-align: center; }
+        h1 { font-size: 3em; background: linear-gradient(45deg, #64ffda, #00d4ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 20px; }
+        .subtitle { color: #00d4ff; font-size: 1.3em; margin-bottom: 60px; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .card { background: rgba(10,25,47,0.9); border: 2px solid #64ffda; border-radius: 20px; padding: 40px; transition: all 0.3s; text-decoration: none; color: #fff; }
+        .card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(100,255,218,0.2); border-color: #00d4ff; }
+        .card-icon { font-size: 3em; margin-bottom: 20px; }
+        .card-title { font-size: 1.5em; color: #64ffda; margin-bottom: 10px; }
+        .card-desc { color: #8892b0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 AI Log Forensics</h1>
+        <p class="subtitle">Intelligent Cyber Investigation Framework</p>
+        <div class="cards">
+            <a href="/upload" class="card">
+                <div class="card-icon">📁</div>
+                <div class="card-title">Upload & Analyze</div>
+                <div class="card-desc">Upload CSV logs for threat detection</div>
+            </a>
+            <a href="/generate" class="card">
+                <div class="card-icon">📊</div>
+                <div class="card-title">Generate Dataset</div>
+                <div class="card-desc">Create synthetic test data</div>
+            </a>
+            <a href="/results" class="card">
+                <div class="card-icon">📈</div>
+                <div class="card-title">View Results</div>
+                <div class="card-desc">See analysis & download reports</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

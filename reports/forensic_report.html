@@ -1,41 +1,9 @@
-
 <!DOCTYPE html>
-<html><head><title>Forensic Report - 2026-01-13 23:22:06</title>
-<style>body{font-family:Arial} table{border-collapse:collapse;width:100%} th,td{border:1px solid #ddd;padding:8px} .high{background:#e74c3c;color:white}</style></head>
-<body>
-<h1>🔍 AI Log Forensics Report</h1>
-<p><strong>Generated:</strong> 2026-01-13 23:22:06 | <strong>High-Risk Incidents:</strong> 3 | <strong>MITRE Coverage:</strong> 3</p>
-<h2>Top Threats</h2><table border="1" class="dataframe high">
-  <thead>
-    <tr style="text-align: right;">
-      <th>user</th>
-      <th>action</th>
-      <th>final_risk_score</th>
-      <th>mitre_tag</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>user1</td>
-      <td>usbinsert</td>
-      <td>100</td>
-      <td>T1201 - Exploitation</td>
-    </tr>
-    <tr>
-      <td>user2</td>
-      <td>fileaccess</td>
-      <td>90</td>
-      <td>TA0002 - Execution</td>
-    </tr>
-    <tr>
-      <td>user1</td>
-      <td>login</td>
-      <td>80</td>
-      <td>TA0001 - Initial Access</td>
-    </tr>
-  </tbody>
-</table>
-<h2>Summary</h2>
-<p>Total logs: 3 | Precision: 100.0% | Risk threshold: >=80</p>
-</body></html>
-    
+<html><head><title>Forensic Report</title>
+<style>body{font-family:Arial;margin:40px;background:#0a192f;color:#fff}
+table{width:100%;border-collapse:collapse;margin:20px 0}
+th{background:#ff4757;padding:12px}td{padding:10px;border:1px solid #333}
+.high{background:#ff4757}</style></head>
+<body><h1>AI Log Forensics Report</h1>
+<p>Generated: 2026-01-14 17:20:47 | High-Risk: 232 | MITRE: 8</p>
+<table><tr><th>User</th><th>Action</th><th>Risk</th><th>MITRE</th></tr><tr class='high'><td>admin</td><td>usbinsert</td><td>136.4</td><td>TA0002</td></tr><tr class='high'><td>guest</td><td>usbinsert</td><td>133.2</td><td>TA0010</td></tr><tr class='high'><td>user1</td><td>usbinsert</td><td>132.4</td><td>TA0008</td></tr><tr class='high'><td>user2</td><td>privilegeescalation</td><td>132.2</td><td>TA0001</td></tr><tr class='high'><td>guest</td><td>privilegeescalation</td><td>130.6</td><td>T1059</td></tr><tr class='high'><td>guest</td><td>usbinsert</td><td>130.1</td><td>TA0002</td></tr><tr class='high'><td>user1</td><td>usbinsert</td><td>130.0</td><td>T1201</td></tr><tr class='high'><td>user2</td><td>privilegeescalation</td><td>130.0</td><td>TA0008</td></tr><tr class='high'><td>user2</td><td>usbinsert</td><td>129.2</td><td>TA0002</td></tr><tr class='high'><td>user1</td><td>usbinsert</td><td>128.3</td><td>TA0004</td></tr></table><p>Total: 600 logs | Precision: 38.7%</p></body></html>

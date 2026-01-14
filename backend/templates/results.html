@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results - AI Log Forensics</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #0a192f; color: #fff; min-height: 100vh; padding: 40px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        h1 { color: #64ffda; margin-bottom: 30px; text-align: center; }
+        .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 40px; }
+        .stat { background: rgba(10,25,47,0.9); border: 2px solid #64ffda; border-radius: 15px; padding: 25px; text-align: center; }
+        .stat-num { font-size: 2.5em; font-weight: bold; }
+        .stat-num.red { color: #ff4757; }
+        .stat-num.cyan { color: #00d4ff; }
+        .stat-num.green { color: #64ffda; }
+        .stat-label { color: #8892b0; margin-top: 5px; }
+        table { width: 100%; background: rgba(10,25,47,0.9); border-radius: 15px; overflow: hidden; }
+        th { background: #ff4757; padding: 15px; text-align: left; }
+        td { padding: 12px 15px; border-bottom: 1px solid #1a1a2e; }
+        tr.high { background: rgba(255,71,87,0.2); }
+        .actions { text-align: center; margin-top: 30px; }
+        .btn { display: inline-block; padding: 15px 30px; background: linear-gradient(45deg, #64ffda, #00d4ff); color: #0a192f; border: none; border-radius: 30px; font-weight: bold; cursor: pointer; text-decoration: none; margin: 5px; }
+        .btn-red { background: linear-gradient(45deg, #ff4757, #ff6b7a); color: #fff; }
+        .back { position: fixed; top: 20px; left: 20px; color: #64ffda; text-decoration: none; }
+        .empty { text-align: center; padding: 60px; color: #8892b0; }
+    </style>
+</head>
+<body>
+    <a href="/" class="back">← Back</a>
+    <div class="container">
+        <h1>📈 Analysis Results</h1>
+        <div id="content"></div>
+    </div>
+    <script>
+        async function loadResults() {
+            const res = await fetch('/api/results');
+            const data = await res.json();
+            const content = document.getElementById('content');
+            
+            if (!data.timestamp) {
+                content.innerHTML = '<div class="empty"><h2>No Analysis Yet</h2><p>Upload a CSV file first</p><br><a href="/upload" class="btn">Go to Upload</a></div>';
+                return;
+            }
+            
+            let html = `
+                <div class="stats">
+                    <div class="stat"><div class="stat-num red">${data.highrisk}</div><div class="stat-label">HIGH-RISK</div></div>
+                    <div class="stat"><div class="stat-num cyan">${data.mitrecount}</div><div class="stat-label">MITRE TECHNIQUES</div></div>
+                    <div class="stat"><div class="stat-num green">${data.precision}%</div><div class="stat-label">PRECISION</div></div>
+                    <div class="stat"><div class="stat-num">${data.total}</div><div class="stat-label">TOTAL LOGS</div></div>
+                </div>
+                <table>
+                    <thead><tr><th>User</th><th>Action</th><th>Risk Score</th><th>MITRE Tag</th></tr></thead>
+                    <tbody>`;
+            
+            data.threats.forEach(t => {
+                const cls = t.risk >= 80 ? 'high' : '';
+                html += `<tr class="${cls}"><td>${t.user}</td><td>${t.action}</td><td>${t.risk}</td><td>${t.mitre}</td></tr>`;
+            });
+            
+            html += `</tbody></table>
+                <div class="actions">
+                    <a href="/reports/forensic_report.html" target="_blank" class="btn">📄 Full Report</a>
+                    <a href="/download_report" class="btn btn-red">⬇️ Download</a>
+                    <a href="/upload" class="btn">🔄 New Analysis</a>
+                </div>`;
+            
+            content.innerHTML = html;
+        }
+        loadResults();
+    </script>
+</body>
+</html>

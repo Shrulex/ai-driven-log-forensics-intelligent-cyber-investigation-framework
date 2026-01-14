@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload - AI Log Forensics</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #0a192f; color: #fff; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+        .container { max-width: 600px; width: 100%; padding: 20px; }
+        h1 { text-align: center; color: #64ffda; margin-bottom: 40px; }
+        .upload-zone { border: 3px dashed #64ffda; border-radius: 20px; padding: 80px 40px; text-align: center; cursor: pointer; transition: all 0.3s; }
+        .upload-zone:hover { border-color: #00d4ff; background: rgba(100,255,218,0.05); }
+        .upload-zone.dragover { border-color: #ff4757; background: rgba(255,71,87,0.1); }
+        .icon { font-size: 4em; margin-bottom: 20px; }
+        .title { font-size: 1.5em; margin-bottom: 10px; }
+        .desc { color: #8892b0; margin-bottom: 20px; }
+        input[type="file"] { display: none; }
+        .btn { display: inline-block; padding: 15px 40px; background: linear-gradient(45deg, #64ffda, #00d4ff); color: #0a192f; border: none; border-radius: 30px; font-weight: bold; cursor: pointer; text-decoration: none; margin: 10px; }
+        .btn:hover { transform: scale(1.05); }
+        .btn-secondary { background: transparent; border: 2px solid #64ffda; color: #64ffda; }
+        .status { margin-top: 30px; padding: 20px; border-radius: 10px; display: none; }
+        .status.loading { display: block; background: rgba(0,212,255,0.1); border: 1px solid #00d4ff; }
+        .status.success { display: block; background: rgba(100,255,218,0.1); border: 1px solid #64ffda; }
+        .status.error { display: block; background: rgba(255,71,87,0.1); border: 1px solid #ff4757; }
+        .back { position: fixed; top: 20px; left: 20px; color: #64ffda; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <a href="/" class="back">← Back</a>
+    <div class="container">
+        <h1>📁 Upload Log File</h1>
+        <div class="upload-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
+            <div class="icon">⬆️</div>
+            <div class="title">Drop CSV file here</div>
+            <div class="desc">or click to browse</div>
+            <input type="file" id="fileInput" accept=".csv">
+        </div>
+        <div class="status" id="status"></div>
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="/generate" class="btn btn-secondary">Generate Test Data First</a>
+        </div>
+    </div>
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const status = document.getElementById('status');
+
+        dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('dragover'); });
+        dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+        dropZone.addEventListener('drop', (e) => { e.preventDefault(); dropZone.classList.remove('dragover'); handleFile(e.dataTransfer.files[0]); });
+        fileInput.addEventListener('change', (e) => handleFile(e.target.files[0]));
+
+        async function handleFile(file) {
+            if (!file || !file.name.endsWith('.csv')) {
+                status.className = 'status error';
+                status.innerHTML = '❌ Please upload a CSV file';
+                return;
+            }
+            status.className = 'status loading';
+            status.innerHTML = '🔄 Analyzing... MITRE mapping & risk scoring';
+            
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            try {
+                const res = await fetch('/analyze', { method: 'POST', body: formData });
+                const data = await res.json();
+                status.className = 'status success';
+                status.innerHTML = `✅ Analysis Complete!<br>High-Risk: <strong style="color:#ff4757">${data.highrisk}</strong> | MITRE: <strong>${data.mitrecount}</strong> | Precision: <strong>${data.precision}%</strong><br><br><a href="/results" class="btn">View Full Results</a>`;
+            } catch (err) {
+                status.className = 'status error';
+                status.innerHTML = '❌ Error: ' + err.message;
+            }
+        }
+    </script>
+</body>
+</html>
