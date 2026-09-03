@@ -51,7 +51,3 @@ text
 3. PR new features (ML models, syslog tail)
 📄 License
 MIT - Free for commercial use
-
-
-on SaaS README"
-git push origin main
