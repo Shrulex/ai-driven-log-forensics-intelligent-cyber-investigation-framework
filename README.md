@@ -53,9 +53,5 @@ text
 MIT - Free for commercial use
 
 
-## **Final Push:**
-```bash
-# Save README.md (root)
-git add README.md requirements.txt
-git commit -m "v1.0 Production SaaS README"
+on SaaS README"
 git push origin main
