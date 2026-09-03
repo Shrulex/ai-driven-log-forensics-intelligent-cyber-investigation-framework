@@ -52,14 +52,6 @@ text
 📄 License
 MIT - Free for commercial use
 
-⭐ Star if useful! Built in 2hrs → Production SaaS [web:42]
-
-text
-
-## **Demo Video (3 Options):**
-1. **Record screen** (2min): Generate → Upload → Live Tail → Export
-2. **Free GIF**: [LottieFiles Cyber Dashboard](https://lottiefiles.com/free-animations/cyber-security-dashboard)[4]
-3. **YouTube embed**: SIEM demo[5]
 
 ## **Final Push:**
 ```bash
