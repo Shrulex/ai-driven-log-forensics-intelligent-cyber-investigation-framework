@@ -2,7 +2,6 @@
 
 **Drag-Drop SIEM Dashboard** • MITRE ATT&CK® Mapping • Live Tail • 38% Precision
 
-## 🎮 [Live Demo Video](https://www.youtube.com/watch?v=ZOnfwh9zH28) ← Replace with your screen record
 
 ## ✨ Features
 - **Generate Test Data** (10-5000 rows, realistic 38% high-risk)
